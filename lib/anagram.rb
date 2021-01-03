@@ -9,8 +9,9 @@ class Anagram
 
   end
 
-  def mymethod
-    @word
+  def match(array)
+    word= Anagram.new
+    
     binding.pry
   end
 
