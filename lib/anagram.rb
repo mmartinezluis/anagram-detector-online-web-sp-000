@@ -10,7 +10,6 @@ class Anagram
 
   def match(array)
     array.select {|i| i == word}
-
   end
 
 end
