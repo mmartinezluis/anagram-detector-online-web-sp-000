@@ -1,3 +1,4 @@
+require "pry"
 # Your code goes here!
 class Anagram
 
@@ -9,6 +10,7 @@ class Anagram
 
   def match(array)
     array
+    binding.pry
   end
 
 end
