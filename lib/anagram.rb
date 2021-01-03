@@ -6,7 +6,7 @@ class Anagram
 
   def intialize(word)
     @word = word
-    
+
   end
 
   def mymethod
