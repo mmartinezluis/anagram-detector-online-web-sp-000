@@ -9,9 +9,6 @@ class Anagram
     binding.pry
   end
 
-  def match
 
-    
-  end
 
 end
