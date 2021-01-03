@@ -11,7 +11,6 @@ class Anagram
 
   def match(array)
     @word.split
-
     binding.pry
   end
 
