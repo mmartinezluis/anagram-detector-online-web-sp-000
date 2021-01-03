@@ -2,13 +2,13 @@ require "pry"
 # Your code goes here!
 class Anagram
 
-  attr_accessor :word 
+  attr_accessor :word
 
   def intialize(word)
     @word = word
   end
 
-  def match(array)
+  def match
     array.select {|i| i == word}
   end
 
